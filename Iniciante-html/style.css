@@ -15,6 +15,9 @@ body{
 }
 
 h1{
+    align-content: center;
+    text-align-last: auto;
+    text-decoration-line: none;
     text-align: center;
     font-size: 50px;
 }
@@ -35,7 +38,7 @@ h1{
         width: 11%;
 }
 .frente{
-    background-color: #020873d2 ;
+    background-color: #262ebdd2 ;
     text-align: center;
     width: 430px;
     padding: 71px;
@@ -50,4 +53,8 @@ li a{
 }
 li :hover{
     color: chartreuse;
+}
+
+li a::before{
+    color: red;
 }
