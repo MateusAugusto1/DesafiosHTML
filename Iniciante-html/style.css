@@ -1,12 +1,8 @@
-*{
-    color: #04b2d9be;
-    line-height: 22px;
+
     
-}
 body{
     display: block;
     height: 100vh;
-    background-image: url('/R.jpg') ;
     background-color: black;
     background-position: center center;
     background-size: cover;
@@ -42,7 +38,7 @@ h1{
     text-align: center;
     width: 430px;
     padding: 71px;
-    
+    margin: 10px;
     
 }
 li a{
