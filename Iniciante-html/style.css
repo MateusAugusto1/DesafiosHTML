@@ -1,56 +1,8 @@
-
-    
-body{
-    display: block;
-    height: 100vh;
-    background-color: black;
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
-
-h1{
-    align-content: center;
-    text-align-last: auto;
-    text-decoration-line: none;
-    text-align: center;
-    font-size: 50px;
-}
-.link{
-    color:black
-}
-.eu{
-    color: #04B2D9;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-.primeiro{
-        
-        margin-left: auto;
-        margin-right: auto;
-        width: 11%;
-}
 .frente{
-    background-color: #262ebdd2 ;
-    text-align: center;
-    width: 430px;
-    padding: 71px;
-    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    background: url("programacao.png");
+    background-repeat: no-repeat;
     
-}
-li a{
-    color: black;
-    text-decoration: none;
-    font-weight: bolder;
     
-}
-li :hover{
-    color: chartreuse;
-}
-
-li a::before{
-    color: red;
 }
