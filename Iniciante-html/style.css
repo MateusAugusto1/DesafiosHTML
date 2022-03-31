@@ -1,8 +1,14 @@
 .frente{
-    max-width: 100%;
-    height: auto;
-    background: url("programacao.png");
-    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
     
+    background-color: wheat;
+    background-repeat: no-repeat;
+    padding: 19px;
+    
+
+    
+}
+.eu {
     
 }
