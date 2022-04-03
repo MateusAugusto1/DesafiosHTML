@@ -1,14 +1,19 @@
 .frente{
-    display: flex;
-    flex-wrap: wrap;
-    
+    display: block;
     background-color: wheat;
     background-repeat: no-repeat;
     padding: 19px;
-    
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
     
 }
-.eu {
-    
+.nli::after{
+    text-decoration:  dashed;
+    color: rosybrown;
+}
+.nli :hover{
+    color: rgb(17, 238, 17);
+
+
 }
