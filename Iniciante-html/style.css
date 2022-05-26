@@ -1,6 +1,6 @@
 .frente{
     display: block;
-    background-color: wheat;
+    background-color: rgb(197, 162, 97);
     background-repeat: no-repeat;
     padding: 19px;
     text-align: center;
@@ -10,10 +10,10 @@
 }
 .nli::after{
     text-decoration:  dashed;
-    color: rosybrown;
+    color: rgb(194, 33, 33);
 }
 .nli :hover{
-    color: rgb(17, 238, 17);
+    color: rgb(22, 56, 22);
 
 
 }
