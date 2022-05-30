@@ -1,6 +1,6 @@
 .frente{
     display: block;
-    background-color: rgb(197, 162, 97);
+    background-color: rgb(102, 68, 6);
     background-repeat: no-repeat;
     padding: 19px;
     text-align: center;
@@ -13,7 +13,7 @@
     color: rgb(194, 33, 33);
 }
 .nli :hover{
-    color: rgb(22, 56, 22);
+    color: rgb(33, 209, 33);
 
 
 }
