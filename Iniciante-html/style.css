@@ -1,25 +1,23 @@
-.frente{
-    display: block;
-    background-color: rgb(102, 68, 6);
+.container {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.5em;
+    background: url(/website-design-slider-background-stockton.jpg);
     background-repeat: no-repeat;
-    padding: 19px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-    
-}
-.nli::after{
-    text-decoration:  dashed;
-    color: rgb(194, 33, 33);
-}
-.nli :hover{
-    color: rgb(33, 209, 33);
-
-
+    color: #1683DB;
 }
 h1{
-    font-size: 50px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: darkolivegreen;
-    animation: both;
+    color:#DB302B;
+    
+}
+.indice{
+    color:#8F130E;
+    font-family:Arial, Helvetica, sans-serif;
+}
+p{
+
+}
+.nli{
+    text-decoration: none;
 }
