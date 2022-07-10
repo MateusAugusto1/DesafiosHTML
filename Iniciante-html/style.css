@@ -8,14 +8,16 @@
     color: #275981;
 }
 h1{
-    color:#DB302B;
+    color:#650a06;
     
 }
 .indice{
     color:#8F130E;
     font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 .nli{
