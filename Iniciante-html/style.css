@@ -10,13 +10,13 @@
 }
 h1{
     text-decoration: overline;
-    color:#650a06;
+    color:#d7514a;
     
     
 }
 h1:hover{
     text-decoration: underline;
-    color: darkorange;
+    color: rgb(190, 121, 36);
 }
 .indice{
     color:#8F130E;
