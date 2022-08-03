@@ -29,6 +29,7 @@ p{
 }
 .nli{
     text-decoration: none;
+    align-items:center
 }
 .MAIN{
     border: 1rem solid rgba(10, 60, 79, 0.621);
