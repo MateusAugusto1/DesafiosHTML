@@ -7,10 +7,10 @@ h1{
 
 h1::before{
     content: attr(data-text);
-    position: absolute;
+    position:absolute;
     width: 0%;
     height: 100%;
-    color:lawngreen;
+    color:rgb(220, 146, 35);
     -webkit-text-stroke: 0vw #00f715;
     border-right: 3px solid #2cc3ff;
     overflow:  hidden;
@@ -21,10 +21,10 @@ h1::before{
 
 @keyframes animate {
     0%{
-        width:0;
+        width: 9%;
     }
     70%{
-        width: 100%;
+        width: 200%;
     }
 }
 
