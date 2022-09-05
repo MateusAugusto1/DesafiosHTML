@@ -32,4 +32,5 @@ h1::before{
     background-color: rebeccapurple;
     padding: 20px;
     margin-top: 90px;
+    font-size: 12px;
 }
