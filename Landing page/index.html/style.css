@@ -22,6 +22,10 @@ body{
     display: flex;
     gap: 70px;
     padding:40px;
+
+}
+.container h2{
+    margin-left: 100px;
 }
 .principal{
     position: absolute;
