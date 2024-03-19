@@ -18,15 +18,27 @@ body{
 
 
 .container{
-    background-color: greenyellow;
+    background-color: rgba(180, 159, 159, 0.411);
     display: flex;
-    gap: 70px;
+    gap: 90px;
     padding:40px;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 2s;
 
 }
+.container h2:hover{
+    font-size:35px;
+}
+
 .container h2{
     margin-left: 100px;
 }
+
 .principal{
     position: absolute;
     left: 60em;
@@ -44,7 +56,18 @@ h1{
 
 }
 #colorp{
+    color: white;
     font-size: 5em;
+    background: -webkit-linear-gradient(rgba(151, 2, 14, 0.726),rgba(158, 1, 85, 0.938));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h3{
+    font-size: 40px ;
+    font-family: unset;
+    color: white;
+    line-height: 50px ;
+    letter-spacing: 1.5´px;
 }
 
 
