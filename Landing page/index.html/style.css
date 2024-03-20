@@ -58,7 +58,7 @@ h1{
 #colorp{
     color: white;
     font-size: 5em;
-    background: -webkit-linear-gradient(rgba(151, 2, 14, 0.726),rgba(158, 1, 85, 0.938));
+    background: -webkit-linear-gradient(rgba(255, 3, 24, 0.726),rgba(84, 111, 233, 0.938));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
