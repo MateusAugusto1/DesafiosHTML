@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500&family=Oswald&display=swap'); 
+
+
+body{
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.line{
+    background-color:#107050;
+    height: 10px;
+}
+
+.container{
+    max-width: 1140px;
+    margin: auto;
+    
+}
+
+.header--area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(201, 177, 177);
+}
+.header-left img{
+    height: 64px;
+    width: 64px;
+}
