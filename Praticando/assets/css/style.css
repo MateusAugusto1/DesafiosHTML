@@ -202,3 +202,55 @@ h2{
     background-size: cover;
     background-position: center;
 }
+
+
+.area3{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.area3--content{
+    padding: 350px 60px;
+    background-image: url(../imagens/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.area3--text{
+    margin-bottom: 35px;
+    line-height: 29px;
+}
+
+
+.area3--img1{
+    background-image: url(../imagens/f5.jpg);
+    background-size: cover;
+    background-position: left;
+
+}
+
+.area4{
+    display: grid;
+    grid-template-columns:82em 1fr;
+    background-color: #ebe9ee;
+
+}
+
+.area4--content{
+    padding: 200px 70px;
+
+}
+
+.area4--text{
+    margin-bottom: 50px;
+    line-height: 29px;
+}
+
+.area4--img1{
+    background-image: url(../imagens/bg3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+
+
+}
