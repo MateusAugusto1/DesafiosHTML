@@ -1,17 +1,36 @@
-const object = document.getElementById('Object');
-const screenWidth = window.innerWidth;
-let position = 0;
-let direction = 1; // 1 means moving right, -1 means moving left
-const speed = 4; // Change this value to adjust the speed of the object
+// Definindo variáveis para o avião e o objeto a ser lançado
+document.addEventListener('DOMContentLoaded', function() {
+    const Plane_ = document.getElementById('Plane_');
+    const container = document.getElementById('container');
 
-function moveObject() {
-    position += speed * direction;
-    if (position > screenWidth - object.offsetWidth || position < 0) {
-        direction *= -1; // Change direction
+    let Plane_y = 200; // Posição inicial do avião
+
+    function createObject() {
+        const object = document.createElement('div');
+        object.className = 'object';
+        object.style.left = Plane_.offsetLeft + 'px';
+        object.style.top = Plane_.offsetTop + 'px';
+        container.appendChild(object);
+
+        let objectY = Plane_.offsetTop;
+
+        // Movimentação do objeto
+        const interval = setInterval(function() {
+            objectY += 5; // Velocidade do objeto
+            object.style.top = objectY + 'px';
+
+            // Verifica se o objeto saiu do container
+            if (objectY > container.offsetHeight) {
+                clearInterval(interval);
+                container.removeChild(object);
+            }
+        }, 30);
     }
-    object.style.left = position + 'px';
-    requestAnimationFrame(moveObject);
-}
 
-// Start the animation
-moveObject();
+    // Evento de pressionar a tecla de espaço para lançar um objeto
+    document.addEventListener('keydown', function(event) {
+        if (event.key === ' ') { // Tecla de espaço
+            createObject();
+        }
+    });
+});

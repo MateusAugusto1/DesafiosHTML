@@ -1,12 +1,35 @@
-body {
+*{
     margin: 0;
-    overflow: hidden;
-    height: 100vh;
-    background-color: #f0f0f0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-#Object {
-    width: 50px;
-    height: 50px;
-    position: absolute;
+.board_game{
+    background: url(resources/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 80%;
+    height: 40em;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
 }
+
+.Plane_{
+    position: absolute;
+    width: 80px;
+    animation: Plane_animation 8s infinite linear;
+}
+
+
+@keyframes Plane_animation {
+    from{
+        right: -80px;
+    }
+    to{
+        right: 100%;
+    }
+}
+
+
