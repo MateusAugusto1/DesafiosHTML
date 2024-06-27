@@ -16,14 +16,14 @@
     overflow: hidden;
 }
 
-.Plane_{
+.airplane{
     position: absolute;
     width: 80px;
-    animation: Plane_animation 8s infinite linear;
+    animation: airplane_animation 8s infinite linear;
 }
 
 
-@keyframes Plane_animation {
+@keyframes airplane_animation {
     from{
         right: -80px;
     }
